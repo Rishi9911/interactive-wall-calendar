@@ -13,7 +13,7 @@ const HeroImage = ({ currentDate }) => {
             setImageUrl(savedImage);
         } else {
             const formattedMonthName = currentMonth.toLowerCase();
-            setImageUrl(`/${formattedMonthName}.jpg`);
+            setImageUrl(`${import.meta.env.BASE_URL}${formattedMonthName}.jpg`);
         }
     }, [currentMonth]);
 
