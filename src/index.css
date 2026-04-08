@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Premium Modern Palette */
+  --primary-blue: #3b82f6;
+  --primary-blue-hover: #2563eb;
+  --primary-gradient: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+  --dark-blue: #1e3a8a;
+  --light-blue-bg: rgba(59, 130, 246, 0.25); /* Stronger highlight for better contrast */
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --text-lighter: #94a3b8;
+  
+  --bg-color: #f8fafc;
+  --white: rgba(255, 255, 255, 0.75);
+  --border-color: rgba(226, 232, 240, 0.8);
+  
+  font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light;
+  color: var(--text-main);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  /* Beautiful sleek background gradient to showcase Glassmorphism */
+  background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);
+  background-attachment: fixed;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
